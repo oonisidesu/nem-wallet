@@ -2,14 +2,15 @@
   <div id="app">
     <header>
       <span>{{ title }}</span>
-      
-      <div class="a"><v-btn absolute>倉本寿彦</v-btn></div>
-      <div class="b"><v-btn active-class>倉本寿彦</v-btn></div>
-      <div class="c"><v-btn append>倉本寿彦</v-btn></div>
-      <div class="c"><v-btn block>倉本寿彦</v-btn></div>
-      <v-btn fab dark large color="blue">
-        <v-icon dark>android</v-icon>
-      </v-btn>
+
+      <v-flex xs12 sm3>
+        <v-btn flat icon color="pink">
+          <v-icon>favorite</v-icon>
+        </v-btn>
+        <v-btn flat icon color="pink">
+          <v-icon>favorite</v-icon>
+        </v-btn>
+      </v-flex>
 
       <v-flex xs12 sm3>
         <v-btn flat icon color="pink">
@@ -17,11 +18,6 @@
         </v-btn>
       </v-flex>
 
-      <v-btn outline color="indigo">Outline Button</v-btn>
-
-      <div>
-        <v-btn color="red" dark large>Large Button</v-btn>
-      </div>
 
       <v-flex xs12 sm3>
         <v-btn flat icon color="indigo">
@@ -98,6 +94,21 @@
       </v-flex>
     </v-layout>
   </v-container>
+
+    <div class="a"><v-btn absolute>倉本寿彦</v-btn></div>
+    <div class="b"><v-btn active-class>倉本寿彦</v-btn></div>
+    <div class="c"><v-btn append>倉本寿彦</v-btn></div>
+    <div class="c"><v-btn block>倉本寿彦</v-btn></div>
+
+    <v-btn fab dark large color="blue">
+      <v-icon dark>android</v-icon>
+    </v-btn>
+
+    <v-btn outline color="indigo">Outline Button</v-btn>
+
+    <div>
+      <v-btn color="red" dark large>わっっしょい</v-btn>
+    </div>
   </div>
 </template>
 
@@ -173,7 +184,7 @@ header span {
   font-weight: 400;
   box-sizing: border-box;
   padding: 10px 16px 0 24px;
-  float: left;
+  
 }
 
 .b{
@@ -185,7 +196,7 @@ header span {
   font-weight: 400;
   box-sizing: border-box;
   padding: 4px 0px 50px 80px;
-  float: left;
+  
 }
 
 .c{
@@ -197,7 +208,7 @@ header span {
   font-weight: 400;
   box-sizing: border-box;
   padding: 4px 0px 0px 0px;
-  float: left;
+  
 }
 
 
