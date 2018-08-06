@@ -12,42 +12,6 @@
         </v-btn>
       </v-flex>
 
-      <v-flex xs12 sm3>
-        <v-btn flat icon color="pink">
-          <v-icon>favorite</v-icon>
-        </v-btn>
-      </v-flex>
-
-
-      <v-flex xs12 sm3>
-        <v-btn flat icon color="indigo">
-          <v-icon>star</v-icon>
-        </v-btn>
-      </v-flex>
-
-      <v-flex xs12 sm3>
-        <v-btn flat icon color="indigo">
-          <v-icon>star</v-icon>
-        </v-btn>
-      </v-flex>
-
-      <v-flex xs12 sm3>
-        <v-btn flat icon color="indigo">
-          <v-icon>star</v-icon>
-        </v-btn>
-      </v-flex>
-
-      <v-flex xs12 sm3>
-        <v-btn flat icon color="indigo">
-          <v-icon>star</v-icon>
-        </v-btn>
-      </v-flex>
-
-      <v-flex xs12 sm3>
-        <v-btn flat icon color="indigo">
-          <v-icon>star</v-icon>
-        </v-btn>
-      </v-flex>
       
       
     </header>
@@ -99,6 +63,43 @@
     <div class="b"><v-btn active-class>倉本寿彦</v-btn></div>
     <div class="c"><v-btn append>倉本寿彦</v-btn></div>
     <div class="c"><v-btn block>倉本寿彦</v-btn></div>
+
+    <v-flex xs12 sm3>
+        <v-btn flat icon color="pink">
+          <v-icon>favorite</v-icon>
+        </v-btn>
+      </v-flex>
+
+
+      <v-flex xs12 sm3>
+        <v-btn flat icon color="indigo">
+          <v-icon>star</v-icon>
+        </v-btn>
+      </v-flex>
+
+      <v-flex xs12 sm3>
+        <v-btn flat icon color="indigo">
+          <v-icon>star</v-icon>
+        </v-btn>
+      </v-flex>
+
+      <v-flex xs12 sm3>
+        <v-btn flat icon color="indigo">
+          <v-icon>star</v-icon>
+        </v-btn>
+      </v-flex>
+
+      <v-flex xs12 sm3>
+        <v-btn flat icon color="indigo">
+          <v-icon>star</v-icon>
+        </v-btn>
+      </v-flex>
+
+      <v-flex xs12 sm3>
+        <v-btn flat icon color="indigo">
+          <v-icon>star</v-icon>
+        </v-btn>
+      </v-flex>
 
     <v-btn fab dark large color="blue">
       <v-icon dark>android</v-icon>
