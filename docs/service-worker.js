@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "./precache-manifest.33c4c24c1c655a419b83d45e980973e7.js"
+  "./precache-manifest.96cba3157960adf5257411ad122f1dbd.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "easy-wallet"});
@@ -30,7 +30,11 @@ workbox.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "f4f8c53e309fd28485fda430411f5eee"
+    "revision": "09d6a41fa99deaac7e83390af851224e"
+  },
+  {
+    "url": "precache-manifest.33c4c24c1c655a419b83d45e980973e7.js",
+    "revision": "33c4c24c1c655a419b83d45e980973e7"
   },
   {
     "url": "precache-manifest.370099fdff5462d880c73d596e74d0c6.js",
@@ -38,7 +42,7 @@ self.__precacheManifest = [
   },
   {
     "url": "service-worker.js",
-    "revision": "e2d9e39ef72b528c52e0f074f9cc08d7"
+    "revision": "cdc7ced1b5e8b122690d51ed1c90af4b"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
