@@ -39,7 +39,7 @@
             placeholder="例. ありがとうやで"
           ></v-text-field>
           <v-flex>
-            <v-btn color="green"" class="white--text" @click="tapSend()">送金〜</v-btn>
+            <v-btn color="green" class="white--text" @click="tapSend()">送金〜</v-btn>
           </v-flex>
         </v-card>
       </v-container>
@@ -126,6 +126,7 @@ export default class Wallet extends Vue {
   }
 }
 </script>
+
 <style scoped>
 .wallet {
   word-break: break-all;
