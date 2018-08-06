@@ -1,16 +1,10 @@
 <template>
   <div id="app">
     <header>
-      <span>Vue.js PWA</span>
+      <span>{{ title }}</span>
     </header>
     <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
-      <h1>{{ message }}</h1>
-      <!-- router-viewを使ってHello.vueを表示 -->
-      <router-view message="router-viewよりこんにちは"></router-view>
- 
-      <!-- componentを使ってHello.vueを表示 -->
-      <Hello message="componentよりこんにちは"></Hello>
+      <Wallet/>
     </main>
   </div>
 </template>
@@ -18,14 +12,14 @@
 <script lang="ts">
 import Vue from 'vue'
 import Component from 'vue-class-component'
-import Hello from './components/Hello.vue'  // Helloをimportする.
+import Wallet from './components/Wallet.vue'  // Walletをimportする.
  
 // コンポーネントの設定
 @Component({
   name: 'app',
-  // Helloをcomponentとして定義する.
+  // Walletをcomponentとして定義する.
   components: {
-    Hello
+    Wallet
   }
 })
 
@@ -33,20 +27,8 @@ import Hello from './components/Hello.vue'  // Helloをimportする.
 export default class App extends Vue {
   
   // 変数 privateは書いても書かなくても良い
-  private title = 'My PWA page'
-  private message = ''
- 
-  // コンストラクタのようなもの。まず初めに呼ばれるとこ
-  mounted () {
-    // ログ出力 Chromeブラウザのconsoleで確認できる
-    console.log('mounted App')
-    // 関数呼び出し
-    this.showMsg('Hello, Vue.js and TypeScript')
-  }
-  // 関数
-  showMsg (msg: string) {
-    this.message = msg
-  } 
+  private title = 'My NEM wallet'
+  mounted () {}
 }
 </script>
 
@@ -71,8 +53,8 @@ header {
   margin: 0;
   height: 56px;
   padding: 0 16px 0 24px;
-  background-color: #35495E;
-  color: #ffffff;
+  background-color: #e3f2ba;
+  color: #1a2aa5;
 }
 
 header span {
